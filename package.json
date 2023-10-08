@@ -1,0 +1,18 @@
+{
+  "name": "memory-leak-test",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^5.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@grace-js/grace": "^0.3.13",
+    "@prisma/client": "5.4.1",
+    "@sentry/integrations": "^7.73.0",
+    "@sentry/node": "^7.73.0"
+  }
+}
